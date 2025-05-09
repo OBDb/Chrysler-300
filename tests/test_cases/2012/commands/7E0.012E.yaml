@@ -1,10 +1,10 @@
-command_id: 7E0.0131
+command_id: 7E0.012E
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E80441310C63
+- response: 7E803412E00
   expected_values:
-    CLR_DIST: 3171
-- response: 7E80441310C8E
+    EVAP_PCT: 0
+- response: 7E803412E50
   expected_values:
-    CLR_DIST: 3214
+    EVAP_PCT: 31.37255
