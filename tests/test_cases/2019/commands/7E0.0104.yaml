@@ -1,0 +1,28 @@
+command_id: 7E0.0104
+test_cases:
+- expected_values:
+    LOAD_PCT: 18.82353
+  response: |-
+    7E803410430
+    7E903410430
+- expected_values:
+    LOAD_PCT: 26.27451
+  response: '7E803410443'
+- expected_values:
+    LOAD_PCT: 49.41176
+  response: |-
+    7E80341047E
+    7E90341047E
+- expected_values:
+    LOAD_PCT: 52.15686
+  response: |-
+    7E803410485
+    7E903410485
+- expected_values:
+    LOAD_PCT: 52.54902
+  response: |-
+    7E803410486
+    7E903410486
+- expected_values:
+    LOAD_PCT: 87.05882
+  response: 7E8034104DE

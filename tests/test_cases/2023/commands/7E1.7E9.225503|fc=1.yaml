@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.225503|fc=1
+test_cases:
+- expected_values:
+    CHRYSLER_GEAR: '1'
+  response: '7E90462550301'
+- expected_values:
+    CHRYSLER_GEAR: '4'
+  response: '7E90462550304'
+- expected_values:
+    CHRYSLER_GEAR: '7'
+  response: '7E90462550307'
+- expected_values:
+    CHRYSLER_GEAR: '8'
+  response: '7E90462550308'
+- expected_values:
+    CHRYSLER_GEAR: PARK
+  response: 7E9046255030D
