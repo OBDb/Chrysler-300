@@ -1,0 +1,29 @@
+command_id: 7E1.7E9.2204FE
+test_cases:
+- expected_values:
+    CHRYSLER_ATF_T: 64.4
+  response: 7E9046204FE3A
+- expected_values:
+    CHRYSLER_ATF_T: 66.2
+  response: 7E9046204FE3B
+- expected_values:
+    CHRYSLER_ATF_T: 68
+  response: 7E9046204FE3C
+- expected_values:
+    CHRYSLER_ATF_T: 69.8
+  response: 7E9046204FE3D
+- expected_values:
+    CHRYSLER_ATF_T: 71.6
+  response: 7E9046204FE3E
+- expected_values:
+    CHRYSLER_ATF_T: 73.4
+  response: 7E9046204FE3F
+- expected_values:
+    CHRYSLER_ATF_T: 75.2
+  response: 7E9046204FE40
+- expected_values:
+    CHRYSLER_ATF_T: 98.6
+  response: 7E9046204FE4D
+- expected_values:
+    CHRYSLER_ATF_T: 100.4
+  response: 7E9046204FE4E
