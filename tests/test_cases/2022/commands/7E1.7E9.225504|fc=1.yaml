@@ -19,5 +19,8 @@ test_cases:
     CHRYSLER_GEAR_TARGET: '6'
   response: '7E90462550406'
 - expected_values:
+    CHRYSLER_GEAR_TARGET: '7'
+  response: '7E90462550407'
+- expected_values:
     CHRYSLER_GEAR_TARGET: PARK
   response: 7E9046255040D
