@@ -1,11 +1,11 @@
 command_id: 7E1.7E9.2204FE
 test_cases:
 - expected_values:
-    CHRYSLER_ATF_T: 129.2
+    CHRYSLER_ATF_T: 54
   response: 7E9066204FE5E5C5D
 - expected_values:
-    CHRYSLER_ATF_T: 197.6
+    CHRYSLER_ATF_T: 92
   response: 7E9066204FE848585
 - expected_values:
-    CHRYSLER_ATF_T: 201.2
+    CHRYSLER_ATF_T: 94
   response: 7E9066204FE868485
