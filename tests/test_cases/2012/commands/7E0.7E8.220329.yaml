@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220329
+test_cases:
+- expected_values:
+    CHRYSLER_AC_HIGH_SIDE_P: 546
+  response: '7E80462032927'
+- expected_values:
+    CHRYSLER_AC_HIGH_SIDE_P: 560
+  response: '7E80462032928'
+- expected_values:
+    CHRYSLER_AC_HIGH_SIDE_P: 574
+  response: '7E80462032929'

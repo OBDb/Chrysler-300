@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22022A
+test_cases:
+- expected_values:
+    CHRYSLER_EOP: 44.08
+  response: 7E80462022A4C
+- expected_values:
+    CHRYSLER_EOP: 45.82
+  response: 7E80462022A4F
+- expected_values:
+    CHRYSLER_EOP: 46.4
+  response: 7E80462022A50
+- expected_values:
+    CHRYSLER_EOP: 65.54
+  response: 7E80462022A71
+- expected_values:
+    CHRYSLER_EOP: 66.7
+  response: 7E80462022A73
+- expected_values:
+    CHRYSLER_EOP: 69.02
+  response: 7E80462022A77
+- expected_values:
+    CHRYSLER_EOP: 70.18
+  response: 7E80462022A79
+- expected_values:
+    CHRYSLER_EOP: 77.72
+  response: 7E80462022A86
