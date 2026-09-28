@@ -4,20 +4,5 @@ test_cases:
     CHRYSLER_IAT_01FF: 23
   response: 7E8056201FF0057
 - expected_values:
-    CHRYSLER_IAT_01FF: 24
-  response: 7E8056201FF0058
-- expected_values:
-    CHRYSLER_IAT_01FF: 25
-  response: 7E8056201FF0059
-- expected_values:
-    CHRYSLER_IAT_01FF: 26
-  response: 7E8056201FF005A
-- expected_values:
-    CHRYSLER_IAT_01FF: 27
-  response: 7E8056201FF005B
-- expected_values:
-    CHRYSLER_IAT_01FF: 28
-  response: 7E8056201FF005C
-- expected_values:
-    CHRYSLER_IAT_01FF: 29
-  response: 7E8056201FF005D
+    CHRYSLER_IAT_01FF: 47
+  response: 7E8056201FF006F
