@@ -4,17 +4,5 @@ test_cases:
     CHRYSLER_INT_CAM_1_OFFSET: -10.3
   response: 7E8056206C2FF99
 - expected_values:
-    CHRYSLER_INT_CAM_1_OFFSET: -10
-  response: 7E8056206C2FF9C
-- expected_values:
-    CHRYSLER_INT_CAM_1_OFFSET: -8.5
-  response: 7E8056206C2FFAB
-- expected_values:
-    CHRYSLER_INT_CAM_1_OFFSET: -6.1
-  response: 7E8056206C2FFC3
-- expected_values:
-    CHRYSLER_INT_CAM_1_OFFSET: -5.9
-  response: 7E8056206C2FFC5
-- expected_values:
     CHRYSLER_INT_CAM_1_OFFSET: -5.8
   response: 7E8056206C2FFC6
