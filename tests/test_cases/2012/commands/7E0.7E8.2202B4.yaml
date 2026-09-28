@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.2202B4
+test_cases:
+- expected_values:
+    CHRYSLER_REQUIRED_FUEL_CHG_3: 6.9375
+  response: 7E8056202B401BC
+- expected_values:
+    CHRYSLER_REQUIRED_FUEL_CHG_3: 7.46875
+  response: 7E8056202B401DE
+- expected_values:
+    CHRYSLER_REQUIRED_FUEL_CHG_3: 8.4375
+  response: 7E8056202B4021C
+- expected_values:
+    CHRYSLER_REQUIRED_FUEL_CHG_3: 11.14062
+  response: 7E8056202B402C9
+- expected_values:
+    CHRYSLER_REQUIRED_FUEL_CHG_3: 11.3125
+  response: 7E8056202B402D4
+- expected_values:
+    CHRYSLER_REQUIRED_FUEL_CHG_3: 11.375
+  response: 7E8056202B402D8
+- expected_values:
+    CHRYSLER_REQUIRED_FUEL_CHG_3: 11.40625
+  response: 7E8056202B402DA
+- expected_values:
+    CHRYSLER_REQUIRED_FUEL_CHG_3: 12.5625
+  response: 7E8056202B40324
+- expected_values:
+    CHRYSLER_REQUIRED_FUEL_CHG_3: 18.0625
+  response: 7E8056202B40484

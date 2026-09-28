@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.220174
+test_cases:
+- expected_values:
+    CHRYSLER_MAP: 28.2
+  response: 7E805620174008D
+- expected_values:
+    CHRYSLER_MAP: 30.4
+  response: '7E8056201740098'
+- expected_values:
+    CHRYSLER_MAP: 34.4
+  response: 7E80562017400AC
+- expected_values:
+    CHRYSLER_MAP: 44.6
+  response: 7E80562017400DF
+- expected_values:
+    CHRYSLER_MAP: 45.8
+  response: 7E80562017400E5
+- expected_values:
+    CHRYSLER_MAP: 46
+  response: 7E80562017400E6
+- expected_values:
+    CHRYSLER_MAP: 59.4
+  response: '7E8056201740129'
+- expected_values:
+    CHRYSLER_MAP: 61.8
+  response: '7E8056201740135'
+- expected_values:
+    CHRYSLER_MAP: 70.8
+  response: '7E8056201740162'
