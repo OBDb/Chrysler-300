@@ -1,23 +1,8 @@
 command_id: 7E0.7E8.22069E
 test_cases:
 - expected_values:
-    CHRYSLER_VARIABLE_VLV_TIM_OIL_P: 304
-  response: 7E80462069E4C
-- expected_values:
-    CHRYSLER_VARIABLE_VLV_TIM_OIL_P: 320
-  response: 7E80462069E50
-- expected_values:
-    CHRYSLER_VARIABLE_VLV_TIM_OIL_P: 428
-  response: 7E80462069E6B
-- expected_values:
-    CHRYSLER_VARIABLE_VLV_TIM_OIL_P: 452
-  response: 7E80462069E71
-- expected_values:
-    CHRYSLER_VARIABLE_VLV_TIM_OIL_P: 468
-  response: 7E80462069E75
-- expected_values:
-    CHRYSLER_VARIABLE_VLV_TIM_OIL_P: 472
-  response: 7E80462069E76
+    CHRYSLER_VARIABLE_VLV_TIM_OIL_P: 128
+  response: 7E80462069E20
 - expected_values:
     CHRYSLER_VARIABLE_VLV_TIM_OIL_P: 484
   response: 7E80462069E79
