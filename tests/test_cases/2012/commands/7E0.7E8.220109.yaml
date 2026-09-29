@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.220109
 test_cases:
 - expected_values:
+    CHRYSLER_BAROMETRIC_P: 136.59
+  response: 7E80562010901D7
+- expected_values:
     CHRYSLER_BAROMETRIC_P: 137.46
   response: 7E80562010901DA
