@@ -4,5 +4,5 @@ test_cases:
     CHRYSLER_EOP: 18.56
   response: 7E80462022A20
 - expected_values:
-    CHRYSLER_EOP: 77.72
-  response: 7E80462022A86
+    CHRYSLER_EOP: 81.2
+  response: 7E80462022A8C
