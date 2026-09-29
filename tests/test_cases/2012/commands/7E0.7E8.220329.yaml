@@ -4,5 +4,5 @@ test_cases:
     CHRYSLER_AC_HIGH_SIDE_P: 462
   response: '7E80462032921'
 - expected_values:
-    CHRYSLER_AC_HIGH_SIDE_P: 770
-  response: '7E80462032937'
+    CHRYSLER_AC_HIGH_SIDE_P: 1414
+  response: '7E80462032965'
