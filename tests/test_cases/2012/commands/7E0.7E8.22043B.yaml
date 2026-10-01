@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22043B
 test_cases:
 - expected_values:
-    CHRYSLER_ODO: 125542.4
+    300_ODO: 125542.4
   response: 7E80562043B3BDD
 - expected_values:
-    CHRYSLER_ODO: 125550.592
+    300_ODO: 125550.592
   response: 7E80562043B3BDE

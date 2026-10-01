@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.220109
 test_cases:
 - expected_values:
-    CHRYSLER_BAROMETRIC_P: 136.3
+    300_BAROMETRIC_P: 94
   response: 7E80562010901D6
 - expected_values:
-    CHRYSLER_BAROMETRIC_P: 136.59
+    300_BAROMETRIC_P: 94.2
   response: 7E80562010901D7
 - expected_values:
-    CHRYSLER_BAROMETRIC_P: 137.46
+    300_BAROMETRIC_P: 94.8
   response: 7E80562010901DA
