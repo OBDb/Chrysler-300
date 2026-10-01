@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22012B
 test_cases:
 - expected_values:
-    300_CAT_MODEL_T: 118
+    300_CAT_MODEL_T: 438
   response: 7E80562012B01B6
 - expected_values:
-    300_CAT_MODEL_T: 182
+    300_CAT_MODEL_T: 502
   response: 7E80562012B01F6
 - expected_values:
-    300_CAT_MODEL_T: -56
+    300_CAT_MODEL_T: 520
   response: 7E80562012B0208
