@@ -1,0 +1,13 @@
+command_id: 7E1.7E9.225034
+test_cases:
+- expected_values:
+    300_MAIN_CYL_P: -40
+  response: "225034\n7E9 05 62 50 34 00 00 "
+- expected_values:
+    300_MAIN_CYL_P: -25.3
+  response: "225034\n7E9 05 62 50 34 00 93 "
+- expected_values:
+    300_MAIN_CYL_P: -40
+  response: |-
+    225034
+    7E9056250340000

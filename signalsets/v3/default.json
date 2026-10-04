@@ -447,7 +447,7 @@
   "signals": [
     {"id": "300_TRANS_SUMP_T_7E1", "path": "Transmission", "fmt": {"bix": 72, "len": 16, "max": 1023, "div": 64, "unit": "fahrenheit" }, "name": "Transmission sump temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "dbg": true, "cmd": {"21": "5C"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"21": "5C"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "300_ATF_T_3RDGEN_V2", "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Automatic transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
@@ -467,11 +467,11 @@
   "signals": [
     {"id": "300_CURRENT_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "5034"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "5034"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "300_MAIN_CYL_P", "path": "Engine", "fmt": { "len": 16, "max": 6513, "min": -40, "div": 10, "add": -40, "unit": "bars" }, "name": "Transmission main cylinder pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "5043"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "5043"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "300_ATF_T_7E1", "path": "Transmission", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
