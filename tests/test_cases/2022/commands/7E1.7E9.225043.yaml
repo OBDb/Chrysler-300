@@ -1,0 +1,22 @@
+command_id: 7E1.7E9.225043
+test_cases:
+- expected_values:
+    300_ATF_T_7E1: 79
+  response: "225043\n7E9 04 62 50 43 77 "
+- expected_values:
+    300_ATF_T_7E1: 88
+  response: "225043\n7E9 04 62 50 43 80 "
+- expected_values:
+    300_ATF_T_7E1: 93
+  response: "225043\n7E9 04 62 50 43 85 "
+- expected_values:
+    300_ATF_T_7E1: 94
+  response: "225043\n7E9 04 62 50 43 86 "
+- expected_values:
+    300_ATF_T_7E1: 95
+  response: "225043\n7E9 04 62 50 43 87 "
+- expected_values:
+    300_ATF_T_7E1: 52
+  response: |-
+    225043
+    7E9046250435C
