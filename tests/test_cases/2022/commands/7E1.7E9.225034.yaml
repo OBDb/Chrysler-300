@@ -11,3 +11,9 @@ test_cases:
   response: |-
     225034
     7E9056250340000
+- expected_values:
+    300_MAIN_CYL_P: -40
+  response: '7E9 05 62 50 34 00 00 '
+- expected_values:
+    300_MAIN_CYL_P: -40
+  response: '7E9056250340000'
