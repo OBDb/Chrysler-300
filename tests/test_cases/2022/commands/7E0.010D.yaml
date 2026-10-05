@@ -2,6 +2,12 @@ command_id: 7E0.010D
 test_cases:
 - expected_values:
     VSS: 0
+  response: "000 03 41 0D 00 \n7E9 03 41 0D 00 "
+- expected_values:
+    VSS: 72
+  response: "000 03 41 0D 48 \n7E9 03 41 0D 48 "
+- expected_values:
+    VSS: 0
   response: 00003410D00
 - expected_values:
     VSS: 49
@@ -29,6 +35,15 @@ test_cases:
   response: "010D\n7E8 03 41 0D 71 \n7E9 03 41 0D 71 "
 - expected_values:
     VSS: 0
+  response: "7E8 03 41 0D 00 \n7E9 03 41 0D 00 "
+- expected_values:
+    VSS: 63
+  response: "7E8 03 41 0D 3F \n7E9 03 41 0D 3F "
+- expected_values:
+    VSS: 75
+  response: "7E8 03 41 0D 4B \n7E9 03 41 0D 4B "
+- expected_values:
+    VSS: 0
   response: |-
     7E803410D00
     7E903410D00
@@ -48,3 +63,8 @@ test_cases:
 - expected_values:
     VSS: 101
   response: 7E903410D65
+- expected_values:
+    VSS: 0
+  response: |-
+    F2103410D00
+    7E903410D00
