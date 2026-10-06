@@ -10,6 +10,11 @@ test_cases:
     VSS: 0
   response: 00003410D00
 - expected_values:
+    VSS: 56
+  response: |-
+    00003410D38
+    7E903410D38
+- expected_values:
     VSS: 49
   response: |-
     010D
@@ -37,8 +42,8 @@ test_cases:
     VSS: 0
   response: "7E8 03 41 0D 00 \n7E9 03 41 0D 00 "
 - expected_values:
-    VSS: 63
-  response: "7E8 03 41 0D 3F \n7E9 03 41 0D 3F "
+    VSS: 30
+  response: "7E8 03 41 0D 1F \n7E9 03 41 0D 1E "
 - expected_values:
     VSS: 75
   response: "7E8 03 41 0D 4B \n7E9 03 41 0D 4B "
@@ -63,8 +68,3 @@ test_cases:
 - expected_values:
     VSS: 101
   response: 7E903410D65
-- expected_values:
-    VSS: 0
-  response: |-
-    F2103410D00
-    7E903410D00

@@ -12,11 +12,19 @@ test_cases:
     000044142363A
     7E90441423468
 - expected_values:
+    VPWR: 14.1
+  response: |-
+    00004414237AC
+    7E90441423714
+- expected_values:
     VPWR: 14.184
   response: "131 04 41 42 38 75 \n7E9 04 41 42 37 68 "
 - expected_values:
     VPWR: 13.109
   response: '7E8 04 41 42 33 35 '
+- expected_values:
+    VPWR: 13.764
+  response: "7E8 04 41 42 35 80 \n7E9 04 41 42 35 C4 "
 - expected_values:
     VPWR: 13.435
   response: "7E8 04 41 42 36 49 \n7E9 04 41 42 34 7B "
@@ -24,17 +32,14 @@ test_cases:
     VPWR: 13.489
   response: "7E8 04 41 42 36 F3 \n7E9 04 41 42 34 B1 "
 - expected_values:
+    VPWR: 13.81
+  response: "7E8 04 41 42 36 F3 \n7E9 04 41 42 35 F2 "
+- expected_values:
     VPWR: 13.69
   response: "7E8 04 41 42 37 02 \n7E9 04 41 42 35 7A "
 - expected_values:
-    VPWR: 13.712
-  response: "7E8 04 41 42 37 40 \n7E9 04 41 42 35 90 "
-- expected_values:
     VPWR: 13.787
   response: "7E8 04 41 42 37 4F \n7E9 04 41 42 35 DB "
-- expected_values:
-    VPWR: 14.045
-  response: "7E8 04 41 42 38 28 \n7E9 04 41 42 36 DD "
 - expected_values:
     VPWR: 13.48
   response: 7E804414234A8
