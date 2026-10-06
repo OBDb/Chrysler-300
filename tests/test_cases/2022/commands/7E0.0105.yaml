@@ -4,16 +4,22 @@ test_cases:
     ECT: 97
   response: "000 03 41 05 89 \n7E9 03 41 05 89 "
 - expected_values:
+    ECT: 89
+  response: |-
+    00003410581
+    7E903410581
+- expected_values:
     ECT: 90
   response: '00003410582'
 - expected_values:
-    ECT: 95
-  response: |-
-    00003410587
-    7E903410587
-- expected_values:
     ECT: 97
   response: 0000A410589
+- expected_values:
+    ECT: 98
+  response: |-
+    0105
+    0000341058A
+    7E90341058A
 - expected_values:
     ECT: 92
   response: "0105\n7E8 03 41 05 84 \n7E9 03 41 05 84 "
@@ -27,30 +33,25 @@ test_cases:
     7E803410589
     7E903410589
 - expected_values:
-    ECT: 94
-  response: '7E8 03 41 05 86 '
+    ECT: 92
+  response: "7E8 03 41 05 84 \n7E9 03 41 05 84 "
 - expected_values:
     ECT: 94
-  response: "7E8 03 41 05 86 \n7E9 03 41 05 86 "
+  response: '7E8 03 41 05 86 '
 - expected_values:
     ECT: 98
   response: '7E8 03 41 05 8A '
 - expected_values:
-    ECT: 99
-  response: "7E8 03 41 05 8B \n7E9 03 41 05 8B "
+    ECT: 100
+  response: "7E8 03 41 05 8C \n7E9 03 41 05 8C "
 - expected_values:
     ECT: 43
   response: '7E803410553'
 - expected_values:
-    ECT: 85
+    ECT: 70
   response: |-
-    7E80341057D
-    7E90341057D
-- expected_values:
-    ECT: 92
-  response: |-
-    7E803410584
-    7E903410584
+    7E80341056F
+    7E90341056E
 - expected_values:
     ECT: 102
   response: 7E80341058E
