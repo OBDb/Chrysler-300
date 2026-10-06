@@ -1,8 +1,8 @@
 command_id: 7E0.0105
 test_cases:
 - expected_values:
-    ECT: 97
-  response: "000 03 41 05 89 \n7E9 03 41 05 89 "
+    ECT: 95
+  response: "000 03 41 05 87 \n7E9 03 41 05 87 "
 - expected_values:
     ECT: 89
   response: |-

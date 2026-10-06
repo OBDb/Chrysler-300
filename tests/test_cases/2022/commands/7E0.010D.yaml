@@ -42,8 +42,8 @@ test_cases:
     VSS: 0
   response: "7E8 03 41 0D 00 \n7E9 03 41 0D 00 "
 - expected_values:
-    VSS: 30
-  response: "7E8 03 41 0D 1F \n7E9 03 41 0D 1E "
+    VSS: 14
+  response: "7E8 03 41 0D 0F \n7E9 03 41 0D 0E "
 - expected_values:
     VSS: 75
   response: "7E8 03 41 0D 4B \n7E9 03 41 0D 4B "
