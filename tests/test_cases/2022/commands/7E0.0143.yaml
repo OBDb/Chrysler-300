@@ -8,6 +8,12 @@ test_cases:
   response: 000044143006A
 - expected_values:
     LOAD_ABS: 9.80392
+  response: "0143\n7E8 04 41 43 00 19 "
+- expected_values:
+    LOAD_ABS: 42.35294
+  response: "0143\n7E8 04 41 43 00 6C "
+- expected_values:
+    LOAD_ABS: 9.80392
   response: '7E8 04 41 43 00 19 '
 - expected_values:
     LOAD_ABS: 12.54902
