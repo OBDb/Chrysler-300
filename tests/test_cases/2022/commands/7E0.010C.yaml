@@ -14,11 +14,35 @@ test_cases:
     00004410C2150
     7E904410C2140
 - expected_values:
+    RPM: 81
+  response: "010C\n7E8 04 41 0C 01 44 "
+- expected_values:
     RPM: 191
   response: "010C\n7E8 04 41 0C 02 FC "
 - expected_values:
+    RPM: 718
+  response: "010C\n7E8 04 41 0C 0B 38 \n7E9 04 41 0C 0B 38 "
+- expected_values:
+    RPM: 720
+  response: "010C\n7E8 04 41 0C 0B 40 \n7E9 04 41 0C 0B 40 "
+- expected_values:
     RPM: 1336
   response: "010C\n7E8 04 41 0C 14 D8 \n7E9 04 41 0C 14 E0 "
+- expected_values:
+    RPM: 1551
+  response: "010C\n7E8 04 41 0C 18 38 \n7E9 04 41 0C 18 3C "
+- expected_values:
+    RPM: 1608
+  response: "010C\n7E8 04 41 0C 19 30 \n7E9 04 41 0C 19 20 "
+- expected_values:
+    RPM: 1832
+  response: "010C\n7E8 04 41 0C 1C A4 \n7E9 04 41 0C 1C A0 "
+- expected_values:
+    RPM: 2161
+  response: "010C\n7E8 04 41 0C 21 BC \n7E9 04 41 0C 21 C4 "
+- expected_values:
+    RPM: 2506
+  response: "010C\n7E8 04 41 0C 27 48 \n7E9 04 41 0C 27 28 "
 - expected_values:
     RPM: 224
   response: '7E8 04 41 0C 03 80 '
@@ -29,10 +53,10 @@ test_cases:
     RPM: 2475
   response: '7E8 04 41 0C 26 AC '
 - expected_values:
-    RPM: 782
+    RPM: 711
   response: |-
-    7E804410C0C3C
-    7E904410C0C38
+    7E804410C0B1C
+    7E904410C0B1C
 - expected_values:
     RPM: 1937
   response: |-
