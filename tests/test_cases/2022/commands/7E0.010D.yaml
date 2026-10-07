@@ -28,6 +28,9 @@ test_cases:
     7E903410D52
 - expected_values:
     VSS: 0
+  response: "010D\n7E8 03 41 0D 00 "
+- expected_values:
+    VSS: 0
   response: "010D\n7E8 03 41 0D 00 \n7E9 03 41 0D 00 "
 - expected_values:
     VSS: 79
