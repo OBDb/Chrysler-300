@@ -1,8 +1,11 @@
 command_id: 7E0.0142
 test_cases:
 - expected_values:
-    VPWR: 13.798
-  response: "000 04 41 42 37 21 \n7E9 04 41 42 35 E6 "
+    VPWR: 13.814
+  response: "000 04 41 42 36 F3 \n7E9 04 41 42 35 F6 "
+- expected_values:
+    VPWR: 13.634
+  response: "000 04 41 42 37 40 \n7E9 04 41 42 35 42 "
 - expected_values:
     VPWR: 13.824
   response: "000 04 41 42 38 18 \n7E9 04 41 42 36 00 "
@@ -17,6 +20,23 @@ test_cases:
     00004414237AC
     7E90441423714
 - expected_values:
+    VPWR: 14.067
+  response: |-
+    0000441423809
+    7E904414236F3
+- expected_values:
+    VPWR: 13.757
+  response: "0142\n000 04 41 42 37 12 \n7E9 04 41 42 35 BD "
+- expected_values:
+    VPWR: 13.592
+  response: "0142\n7E8 04 41 42 36 0B \n7E9 04 41 42 35 18 "
+- expected_values:
+    VPWR: 13.731
+  response: "0142\n7E8 04 41 42 37 8D \n7E9 04 41 42 35 A3 "
+- expected_values:
+    VPWR: 13.663
+  response: "0142\n7E8 04 41 42 37 EA \n7E9 04 41 42 35 5F "
+- expected_values:
     VPWR: 14.184
   response: "131 04 41 42 38 75 \n7E9 04 41 42 37 68 "
 - expected_values:
@@ -29,17 +49,11 @@ test_cases:
     VPWR: 13.435
   response: "7E8 04 41 42 36 49 \n7E9 04 41 42 34 7B "
 - expected_values:
-    VPWR: 13.489
-  response: "7E8 04 41 42 36 F3 \n7E9 04 41 42 34 B1 "
-- expected_values:
-    VPWR: 13.81
-  response: "7E8 04 41 42 36 F3 \n7E9 04 41 42 35 F2 "
-- expected_values:
     VPWR: 13.69
   response: "7E8 04 41 42 37 02 \n7E9 04 41 42 35 7A "
 - expected_values:
-    VPWR: 13.787
-  response: "7E8 04 41 42 37 4F \n7E9 04 41 42 35 DB "
+    VPWR: 13.744
+  response: "7E8 04 41 42 37 4F \n7E9 04 41 42 35 B0 "
 - expected_values:
     VPWR: 13.48
   response: 7E804414234A8
@@ -52,15 +66,15 @@ test_cases:
     VPWR: 13.573
   response: '7E80441423505'
 - expected_values:
-    VPWR: 13.571
-  response: |-
-    7E80441423580
-    7E90441423503
-- expected_values:
     VPWR: 13.674
   response: |-
     7E80441423702
     7E9044142356A
+- expected_values:
+    VPWR: 13.474
+  response: |-
+    7E804414237CB
+    7E904414234A2
 - expected_values:
     VPWR: 14.087
   response: |-

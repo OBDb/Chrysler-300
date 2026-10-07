@@ -7,6 +7,12 @@ test_cases:
     TP: 12.15686
   response: '000 03 41 11 1F '
 - expected_values:
+    TP: 12.15686
+  response: 0000341111F
+- expected_values:
+    TP: 12.15686
+  response: "0111\n7E8 03 41 11 1F "
+- expected_values:
     TP: 10.98039
   response: '7E8 03 41 11 1C '
 - expected_values:
