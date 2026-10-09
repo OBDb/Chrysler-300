@@ -20,23 +20,17 @@ test_cases:
     RPM: 191
   response: "010C\n7E8 04 41 0C 02 FC "
 - expected_values:
-    RPM: 718
-  response: "010C\n7E8 04 41 0C 0B 38 \n7E9 04 41 0C 0B 38 "
+    RPM: 703
+  response: "010C\n7E8 04 41 0C 0A FC \n7E9 04 41 0C 0A FC "
 - expected_values:
     RPM: 720
   response: "010C\n7E8 04 41 0C 0B 40 \n7E9 04 41 0C 0B 40 "
 - expected_values:
-    RPM: 1336
-  response: "010C\n7E8 04 41 0C 14 D8 \n7E9 04 41 0C 14 E0 "
-- expected_values:
-    RPM: 1551
-  response: "010C\n7E8 04 41 0C 18 38 \n7E9 04 41 0C 18 3C "
-- expected_values:
     RPM: 1608
   response: "010C\n7E8 04 41 0C 19 30 \n7E9 04 41 0C 19 20 "
 - expected_values:
-    RPM: 1832
-  response: "010C\n7E8 04 41 0C 1C A4 \n7E9 04 41 0C 1C A0 "
+    RPM: 1975
+  response: "010C\n7E8 04 41 0C 1E DC \n7E9 04 41 0C 1E DC "
 - expected_values:
     RPM: 2161
   response: "010C\n7E8 04 41 0C 21 BC \n7E9 04 41 0C 21 C4 "
@@ -44,8 +38,32 @@ test_cases:
     RPM: 2506
   response: "010C\n7E8 04 41 0C 27 48 \n7E9 04 41 0C 27 28 "
 - expected_values:
+    RPM: 34
+  response: '7E8 04 41 0C 00 88 '
+- expected_values:
     RPM: 224
   response: '7E8 04 41 0C 03 80 '
+- expected_values:
+    RPM: 715
+  response: "7E8 04 41 0C 0B 2C \n7E9 04 41 0C 0B 2C "
+- expected_values:
+    RPM: 719
+  response: "7E8 04 41 0C 0B 40 \n7E9 04 41 0C 0B 3C "
+- expected_values:
+    RPM: 975
+  response: "7E8 04 41 0C 0F 38 \n7E9 04 41 0C 0F 3C "
+- expected_values:
+    RPM: 1030
+  response: "7E8 04 41 0C 10 BC \n7E9 04 41 0C 10 18 "
+- expected_values:
+    RPM: 1659
+  response: "7E8 04 41 0C 19 EC \n7E9 04 41 0C 19 EC "
+- expected_values:
+    RPM: 2072
+  response: "7E8 04 41 0C 20 5C \n7E9 04 41 0C 20 60 "
+- expected_values:
+    RPM: 2111
+  response: "7E8 04 41 0C 21 00 \n7E9 04 41 0C 20 FC "
 - expected_values:
     RPM: 2179
   response: '7E8 04 41 0C 22 0C '
@@ -58,20 +76,15 @@ test_cases:
     7E804410C0B1C
     7E904410C0B1C
 - expected_values:
-    RPM: 1937
+    RPM: 2045
   response: |-
-    7E804410C1E4C
-    7E904410C1E44
+    7E804410C1FF0
+    7E904410C1FF4
 - expected_values:
     RPM: 2058
   response: |-
     7E804410C2028
     7E904410C2028
-- expected_values:
-    RPM: 2153
-  response: |-
-    7E804410C21B4
-    7E904410C21A4
 - expected_values:
     RPM: 2268
   response: |-
