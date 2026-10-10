@@ -467,11 +467,11 @@
   "signals": [
     {"id": "300_CURRENT_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "5034"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "5034"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "300_MAIN_CYL_P", "path": "Engine", "fmt": { "len": 16, "max": 6513, "min": -40, "div": 10, "add": -40, "unit": "bars" }, "name": "Transmission main cylinder pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "5043"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "5043"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "300_ATF_T_7E1", "path": "Transmission", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
