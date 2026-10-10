@@ -1,0 +1,26 @@
+command_id: 7E1.7E9.225034
+test_cases:
+- expected_values:
+    300_MAIN_CYL_P: -40
+  response: '7E9056250340000'
+- expected_values:
+    300_MAIN_CYL_P: -30.1
+  response: '7E9056250340063'
+- expected_values:
+    300_MAIN_CYL_P: -28.9
+  response: 7E905625034006F
+- expected_values:
+    300_MAIN_CYL_P: -25.8
+  response: 7E905625034008E
+- expected_values:
+    300_MAIN_CYL_P: -24.9
+  response: '7E9056250340097'
+- expected_values:
+    300_MAIN_CYL_P: -23.5
+  response: 7E90562503400A5
+- expected_values:
+    300_MAIN_CYL_P: -22.3
+  response: 7E90562503400B1
+- expected_values:
+    300_MAIN_CYL_P: -20.4
+  response: 7E90562503400C4
