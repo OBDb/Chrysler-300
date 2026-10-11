@@ -4,9 +4,6 @@ test_cases:
     VSS: 0
   response: "000 03 41 0D 00 \n7E9 03 41 0D 00 "
 - expected_values:
-    VSS: 72
-  response: "000 03 41 0D 48 \n7E9 03 41 0D 48 "
-- expected_values:
     VSS: 0
   response: 00003410D00
 - expected_values:
@@ -49,13 +46,19 @@ test_cases:
     7E903410D00
 - expected_values:
     VSS: 0
+  response: '7E8 03 41 0D 00 '
+- expected_values:
+    VSS: 0
   response: "7E8 03 41 0D 00 \n7E9 03 41 0D 00 "
 - expected_values:
     VSS: 14
   response: "7E8 03 41 0D 0F \n7E9 03 41 0D 0E "
 - expected_values:
-    VSS: 75
-  response: "7E8 03 41 0D 4B \n7E9 03 41 0D 4B "
+    VSS: 131
+  response: "7E8 03 41 0D 83 \n7E9 03 41 0D 83 "
+- expected_values:
+    VSS: 134
+  response: "7E8 03 41 0D 85 \n7E9 03 41 0D 86 "
 - expected_values:
     VSS: 0
   response: |-
