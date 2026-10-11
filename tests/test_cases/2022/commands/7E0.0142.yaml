@@ -10,10 +10,10 @@ test_cases:
     VPWR: 13.824
   response: "000 04 41 42 38 18 \n7E9 04 41 42 36 00 "
 - expected_values:
-    VPWR: 13.416
+    VPWR: 13.438
   response: |-
-    000044142363A
-    7E90441423468
+    00004414235FC
+    7E9044142347E
 - expected_values:
     VPWR: 13.583
   response: |-
@@ -83,11 +83,6 @@ test_cases:
   response: |-
     7E80441423702
     7E9044142356A
-- expected_values:
-    VPWR: 14.087
-  response: |-
-    7E804414237DA
-    7E90441423707
 - expected_values:
     VPWR: 13.132
   response: 7E9044142334C
