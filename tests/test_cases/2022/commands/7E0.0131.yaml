@@ -13,19 +13,22 @@ test_cases:
     7E9044131FFFF
 - expected_values:
     CLR_DIST: 65535
+  response: "0131\n000 04 41 31 FF FF \n7E9 04 41 31 FF FF "
+- expected_values:
+    CLR_DIST: 65535
   response: |-
     0131
     000044131FFFF
     7E9044131FFFF
 - expected_values:
     CLR_DIST: 65535
+  response: "0131\n7E8 04 41 31 FF FF \n7E9 04 41 31 FF FF "
+- expected_values:
+    CLR_DIST: 65535
   response: '7E8 04 41 31 FF FF '
 - expected_values:
     CLR_DIST: 65535
   response: "7E8 04 41 31 FF FF \n7E9 04 41 31 FF FF "
-- expected_values:
-    CLR_DIST: 65535
-  response: 7E8044131FFFF
 - expected_values:
     CLR_DIST: 65535
   response: |-

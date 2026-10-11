@@ -33,14 +33,20 @@ test_cases:
     VSS: 0
   response: "010D\n7E8 03 41 0D 00 \n7E9 03 41 0D 00 "
 - expected_values:
-    VSS: 79
-  response: "010D\n7E8 03 41 0D 4E \n7E9 03 41 0D 4F "
+    VSS: 31
+  response: "010D\n7E8 03 41 0D 1F \n7E9 03 41 0D 1F "
 - expected_values:
-    VSS: 112
-  response: "010D\n7E8 03 41 0D 70 \n7E9 03 41 0D 70 "
+    VSS: 134
+  response: "010D\n7E8 03 41 0D 85 \n7E9 03 41 0D 86 "
 - expected_values:
-    VSS: 113
-  response: "010D\n7E8 03 41 0D 71 \n7E9 03 41 0D 71 "
+    VSS: 142
+  response: "010D\n7E8 03 41 0D 8E \n7E9 03 41 0D 8E "
+- expected_values:
+    VSS: 0
+  response: |-
+    010D
+    A
+    7E903410D00
 - expected_values:
     VSS: 0
   response: "7E8 03 41 0D 00 \n7E9 03 41 0D 00 "
