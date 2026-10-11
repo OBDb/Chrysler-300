@@ -71,6 +71,9 @@ test_cases:
     RPM: 2475
   response: '7E8 04 41 0C 26 AC '
 - expected_values:
+    RPM: 249
+  response: 7E804410C03E4
+- expected_values:
     RPM: 711
   response: |-
     7E804410C0B1C
@@ -86,10 +89,10 @@ test_cases:
     7E804410C2028
     7E904410C2028
 - expected_values:
-    RPM: 2268
+    RPM: 2409
   response: |-
-    7E804410C2338
-    7E904410C2370
+    7E804410C25BC
+    7E904410C25A4
 - expected_values:
     RPM: 722
   response: '7E9 04 41 0C 0B 48 '
