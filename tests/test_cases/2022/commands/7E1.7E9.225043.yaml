@@ -4,15 +4,6 @@ test_cases:
     300_ATF_T_7E1: 79
   response: "225043\n7E9 04 62 50 43 77 "
 - expected_values:
-    300_ATF_T_7E1: 88
-  response: "225043\n7E9 04 62 50 43 80 "
-- expected_values:
-    300_ATF_T_7E1: 93
-  response: "225043\n7E9 04 62 50 43 85 "
-- expected_values:
-    300_ATF_T_7E1: 94
-  response: "225043\n7E9 04 62 50 43 86 "
-- expected_values:
     300_ATF_T_7E1: 95
   response: "225043\n7E9 04 62 50 43 87 "
 - expected_values:
@@ -20,3 +11,21 @@ test_cases:
   response: |-
     225043
     7E9046250435C
+- expected_values:
+    300_ATF_T_7E1: 95
+  response: "225043\nNO DATA\n2250431\n7E9 04 62 50 43 87 "
+- expected_values:
+    300_ATF_T_7E1: 56
+  response: '7E9 04 62 50 43 60 '
+- expected_values:
+    300_ATF_T_7E1: 87
+  response: '7E9 04 62 50 43 7F '
+- expected_values:
+    300_ATF_T_7E1: 88
+  response: '7E9 04 62 50 43 80 '
+- expected_values:
+    300_ATF_T_7E1: 86
+  response: 7E9046250437E
+- expected_values:
+    300_ATF_T_7E1: 96
+  response: '7E90462504388'
