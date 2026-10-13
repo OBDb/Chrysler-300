@@ -31,6 +31,13 @@ test_cases:
     LOAD_PCT: 95.29412
   response: "0104\n7E8 03 41 04 CF \n7E9 03 41 04 F3 "
 - expected_values:
+    LOAD_PCT: 100
+  response: |-
+    0104
+    NO DATA
+    7E8034104FF
+    7E9034104FF
+- expected_values:
     LOAD_PCT: 12.15686
   response: "7E8 03 41 04 1F \n7E9 03 41 04 1F "
 - expected_values:
