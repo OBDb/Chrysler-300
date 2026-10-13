@@ -89,6 +89,11 @@ test_cases:
     7E804410C2028
     7E904410C2028
 - expected_values:
+    RPM: 2113
+  response: |-
+    7E804410C20F8
+    7E904410C2104
+- expected_values:
     RPM: 2409
   response: |-
     7E804410C25BC
