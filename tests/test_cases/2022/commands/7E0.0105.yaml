@@ -1,6 +1,9 @@
 command_id: 7E0.0105
 test_cases:
 - expected_values:
+    ECT: 87
+  response: "000 03 41 05 7F \n7E9 03 41 05 7F "
+- expected_values:
     ECT: 92
   response: "000 03 41 05 84 \n7E9 03 41 05 84 "
 - expected_values:
@@ -42,14 +45,11 @@ test_cases:
     ECT: 67
   response: "7E8 03 41 05 6B \n7E9 03 41 05 6B "
 - expected_values:
-    ECT: 86
-  response: "7E8 03 41 05 7E \n7E9 03 41 05 7E "
+    ECT: 88
+  response: "7E8 03 41 05 80 \n7E9 03 41 05 80 "
 - expected_values:
-    ECT: 89
-  response: "7E8 03 41 05 81 \n7E9 03 41 05 81 "
-- expected_values:
-    ECT: 94
-  response: '7E8 03 41 05 86 '
+    ECT: 90
+  response: '7E8 03 41 05 82 '
 - expected_values:
     ECT: 98
   response: '7E8 03 41 05 8A '
@@ -59,6 +59,11 @@ test_cases:
 - expected_values:
     ECT: 43
   response: '7E803410553'
+- expected_values:
+    ECT: 52
+  response: |-
+    7E80341055C
+    7E90341055C
 - expected_values:
     ECT: 55
   response: |-
