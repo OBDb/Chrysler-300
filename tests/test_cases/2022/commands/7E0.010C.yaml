@@ -1,6 +1,9 @@
 command_id: 7E0.010C
 test_cases:
 - expected_values:
+    RPM: 1247
+  response: "000 04 41 0C 13 7C \n7E9 04 41 0C 13 7C "
+- expected_values:
     RPM: 1933
   response: 00004410C1E34
 - expected_values:
@@ -44,20 +47,23 @@ test_cases:
     RPM: 224
   response: '7E8 04 41 0C 03 80 '
 - expected_values:
-    RPM: 715
-  response: "7E8 04 41 0C 0B 2C \n7E9 04 41 0C 0B 2C "
+    RPM: 709
+  response: "7E8 04 41 0C 0B 14 \n7E9 04 41 0C 0B 14 "
 - expected_values:
     RPM: 719
   response: "7E8 04 41 0C 0B 40 \n7E9 04 41 0C 0B 3C "
 - expected_values:
-    RPM: 975
-  response: "7E8 04 41 0C 0F 38 \n7E9 04 41 0C 0F 3C "
+    RPM: 956
+  response: "7E8 04 41 0C 0E F0 \n7E9 04 41 0C 0E F0 "
 - expected_values:
-    RPM: 1030
-  response: "7E8 04 41 0C 10 BC \n7E9 04 41 0C 10 18 "
+    RPM: 981
+  response: "7E8 04 41 0C 0F 2C \n7E9 04 41 0C 0F 54 "
 - expected_values:
-    RPM: 1659
-  response: "7E8 04 41 0C 19 EC \n7E9 04 41 0C 19 EC "
+    RPM: 1042
+  response: "7E8 04 41 0C 10 54 \n7E9 04 41 0C 10 48 "
+- expected_values:
+    RPM: 1986
+  response: "7E8 04 41 0C 1E DC \n7E9 04 41 0C 1F 08 "
 - expected_values:
     RPM: 2072
   response: "7E8 04 41 0C 20 5C \n7E9 04 41 0C 20 60 "
@@ -94,10 +100,10 @@ test_cases:
     7E804410C20F8
     7E904410C2104
 - expected_values:
-    RPM: 2409
+    RPM: 2488
   response: |-
-    7E804410C25BC
-    7E904410C25A4
+    7E804410C26EC
+    7E904410C26E0
 - expected_values:
     RPM: 722
   response: '7E9 04 41 0C 0B 48 '
