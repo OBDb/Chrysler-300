@@ -7,6 +7,9 @@ test_cases:
     VPWR: 13.634
   response: "000 04 41 42 37 40 \n7E9 04 41 42 35 42 "
 - expected_values:
+    VPWR: 13.744
+  response: "000 04 41 42 38 18 \n7E9 04 41 42 35 B0 "
+- expected_values:
     VPWR: 13.824
   response: "000 04 41 42 38 18 \n7E9 04 41 42 36 00 "
 - expected_values:
@@ -41,6 +44,12 @@ test_cases:
     VPWR: 13.757
   response: "0142\n000 04 41 42 37 12 \n7E9 04 41 42 35 BD "
 - expected_values:
+    VPWR: 14.237
+  response: "0142\n000 04 41 42 37 9D "
+- expected_values:
+    VPWR: 13.109
+  response: "0142\n7E8 04 41 42 33 35 "
+- expected_values:
     VPWR: 13.592
   response: "0142\n7E8 04 41 42 36 0B \n7E9 04 41 42 35 18 "
 - expected_values:
@@ -49,6 +58,12 @@ test_cases:
 - expected_values:
     VPWR: 13.663
   response: "0142\n7E8 04 41 42 37 EA \n7E9 04 41 42 35 5F "
+- expected_values:
+    VPWR: 14.329
+  response: "0142\n7E8 04 41 42 37 F9 "
+- expected_values:
+    VPWR: 14.468
+  response: "0142\n7E8 04 41 42 38 84 "
 - expected_values:
     VPWR: 12.723
   response: '7E8 04 41 42 31 B3 '
@@ -83,6 +98,18 @@ test_cases:
   response: |-
     7E80441423702
     7E9044142356A
+- expected_values:
+    VPWR: 13.68
+  response: '7E9 04 41 42 35 70 '
+- expected_values:
+    VPWR: 13.727
+  response: '7E9 04 41 42 35 9F '
+- expected_values:
+    VPWR: 13.798
+  response: '7E9 04 41 42 35 E6 '
+- expected_values:
+    VPWR: 13.918
+  response: '7E9 04 41 42 36 5E '
 - expected_values:
     VPWR: 13.132
   response: 7E9044142334C
