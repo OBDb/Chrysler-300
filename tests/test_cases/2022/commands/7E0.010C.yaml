@@ -56,14 +56,14 @@ test_cases:
     RPM: 956
   response: "7E8 04 41 0C 0E F0 \n7E9 04 41 0C 0E F0 "
 - expected_values:
+    RPM: 959
+  response: "7E8 04 41 0C 0E FC \n7E9 04 41 0C 0E FC "
+- expected_values:
     RPM: 981
   response: "7E8 04 41 0C 0F 2C \n7E9 04 41 0C 0F 54 "
 - expected_values:
     RPM: 1042
   response: "7E8 04 41 0C 10 54 \n7E9 04 41 0C 10 48 "
-- expected_values:
-    RPM: 1986
-  response: "7E8 04 41 0C 1E DC \n7E9 04 41 0C 1F 08 "
 - expected_values:
     RPM: 2072
   response: "7E8 04 41 0C 20 5C \n7E9 04 41 0C 20 60 "
@@ -73,6 +73,9 @@ test_cases:
 - expected_values:
     RPM: 2179
   response: '7E8 04 41 0C 22 0C '
+- expected_values:
+    RPM: 2368
+  response: "7E8 04 41 0C 25 0C \n7E9 04 41 0C 25 00 "
 - expected_values:
     RPM: 2475
   response: '7E8 04 41 0C 26 AC '
