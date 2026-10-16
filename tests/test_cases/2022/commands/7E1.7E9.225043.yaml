@@ -30,5 +30,5 @@ test_cases:
     300_ATF_T_7E1: 31
   response: '7E90462504347'
 - expected_values:
-    300_ATF_T_7E1: 96
-  response: '7E90462504388'
+    300_ATF_T_7E1: 97
+  response: '7E90462504389'
