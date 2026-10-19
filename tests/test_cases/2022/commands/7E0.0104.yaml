@@ -7,8 +7,16 @@ test_cases:
     LOAD_PCT: 51.76471
   response: '000 03 41 04 84 '
 - expected_values:
+    LOAD_PCT: 54.5098
+  response: "000 03 41 04 90 \n7E9 03 41 04 8B "
+- expected_values:
     LOAD_PCT: 12.15686
   response: 0000341041F
+- expected_values:
+    LOAD_PCT: 83.13725
+  response: |-
+    000034104D4
+    7E9034104D4
 - expected_values:
     LOAD_PCT: 13.33333
   response: "0104\n000 03 41 04 22 "
@@ -47,31 +55,29 @@ test_cases:
     LOAD_PCT: 12.15686
   response: "7E8 03 41 04 1F \n7E9 03 41 04 1F "
 - expected_values:
-    LOAD_PCT: 12.54902
-  response: "7E8 03 41 04 20 \n7E9 03 41 04 20 "
+    LOAD_PCT: 12.94118
+  response: '7E8 03 41 04 21 '
+- expected_values:
+    LOAD_PCT: 95.29412
+  response: "7E8 03 41 04 F7 \n7E9 03 41 04 F3 "
 - expected_values:
     LOAD_PCT: 100
-  response: "7E8 03 41 04 FF \n7E9 03 41 04 FF "
+  response: "7E8 03 41 04 FE \n7E9 03 41 04 FF "
 - expected_values:
     LOAD_PCT: 23.13725
   response: |-
     7E803410432
     7E90341043B
 - expected_values:
-    LOAD_PCT: 40.39216
-  response: |-
-    7E803410462
-    7E903410467
-- expected_values:
     LOAD_PCT: 56.07843
   response: |-
     7E803410492
     7E90341048F
 - expected_values:
-    LOAD_PCT: 67.45098
+    LOAD_PCT: 85.4902
   response: |-
-    7E8034104A9
-    7E9034104AC
+    7E8034104D7
+    7E9034104DA
 - expected_values:
     LOAD_PCT: 100
   response: 7E8034104FF
