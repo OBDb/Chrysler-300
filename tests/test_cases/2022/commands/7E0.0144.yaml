@@ -31,8 +31,11 @@ test_cases:
     NO DATA
     7E80441448000
 - expected_values:
-    EQ_RAT: 0.94003
-  response: '7E8 04 41 44 78 53 '
+    EQ_RAT: 0.8721
+  response: '7E8 04 41 44 6F A1 '
+- expected_values:
+    EQ_RAT: 0.92636
+  response: '7E8 04 41 44 76 93 '
 - expected_values:
     EQ_RAT: 0.78296
   response: '7E80441446438'
