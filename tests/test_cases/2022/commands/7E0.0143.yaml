@@ -7,17 +7,14 @@ test_cases:
     LOAD_ABS: 20.78431
   response: '0000441430035'
 - expected_values:
-    LOAD_ABS: 43.92157
-  response: '0000441430070'
-- expected_values:
     LOAD_ABS: 9.80392
   response: "0143\n7E8 04 41 43 00 19 "
 - expected_values:
     LOAD_ABS: 42.35294
   response: "0143\n7E8 04 41 43 00 6C "
 - expected_values:
-    LOAD_ABS: 9.41176
-  response: '7E8 04 41 43 00 18 '
+    LOAD_ABS: 9.01961
+  response: '7E8 04 41 43 00 17 '
 - expected_values:
     LOAD_ABS: 12.15686
   response: '7E8 04 41 43 00 1F '
@@ -30,3 +27,6 @@ test_cases:
 - expected_values:
     LOAD_ABS: 9.80392
   response: '7E80441430019'
+- expected_values:
+    LOAD_ABS: 46.27451
+  response: '7E80441430076'
