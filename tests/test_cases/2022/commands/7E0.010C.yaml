@@ -1,8 +1,16 @@
 command_id: 7E0.010C
 test_cases:
 - expected_values:
-    RPM: 1247
-  response: "000 04 41 0C 13 7C \n7E9 04 41 0C 13 7C "
+    RPM: 779
+  response: "000 04 41 0C 0C 2C \n7E9 04 41 0C 0C 2C "
+- expected_values:
+    RPM: 2653
+  response: "000 04 41 0C 29 90 \n7E9 04 41 0C 29 74 "
+- expected_values:
+    RPM: 713
+  response: |-
+    00004410C0B20
+    7E904410C0B24
 - expected_values:
     RPM: 1933
   response: 00004410C1E34
@@ -47,14 +55,11 @@ test_cases:
     RPM: 224
   response: '7E8 04 41 0C 03 80 '
 - expected_values:
-    RPM: 709
-  response: "7E8 04 41 0C 0B 14 \n7E9 04 41 0C 0B 14 "
+    RPM: 701
+  response: "7E8 04 41 0C 0A F8 \n7E9 04 41 0C 0A F4 "
 - expected_values:
-    RPM: 719
-  response: "7E8 04 41 0C 0B 40 \n7E9 04 41 0C 0B 3C "
-- expected_values:
-    RPM: 956
-  response: "7E8 04 41 0C 0E F0 \n7E9 04 41 0C 0E F0 "
+    RPM: 707
+  response: "7E8 04 41 0C 0B 0C \n7E9 04 41 0C 0B 0C "
 - expected_values:
     RPM: 959
   response: "7E8 04 41 0C 0E FC \n7E9 04 41 0C 0E FC "
@@ -65,17 +70,11 @@ test_cases:
     RPM: 1042
   response: "7E8 04 41 0C 10 54 \n7E9 04 41 0C 10 48 "
 - expected_values:
-    RPM: 2072
-  response: "7E8 04 41 0C 20 5C \n7E9 04 41 0C 20 60 "
-- expected_values:
-    RPM: 2111
-  response: "7E8 04 41 0C 21 00 \n7E9 04 41 0C 20 FC "
+    RPM: 1856
+  response: "7E8 04 41 0C 1C C8 \n7E9 04 41 0C 1D 00 "
 - expected_values:
     RPM: 2179
   response: '7E8 04 41 0C 22 0C '
-- expected_values:
-    RPM: 2368
-  response: "7E8 04 41 0C 25 0C \n7E9 04 41 0C 25 00 "
 - expected_values:
     RPM: 2475
   response: '7E8 04 41 0C 26 AC '
