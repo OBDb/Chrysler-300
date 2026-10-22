@@ -20,7 +20,15 @@ test_cases:
   response: "01441\n000 04 41 44 80 00 "
 - expected_values:
     EQ_RAT: 1
-  response: "01441\n7E8 04 41 44 80 00 "
+  response: |-
+    01441
+    0000441448000
+- expected_values:
+    EQ_RAT: 0.82758
+  response: "01441\n7E8 04 41 44 69 EE "
+- expected_values:
+    EQ_RAT: 0.92947
+  response: "01441\n7E8 04 41 44 76 F9 "
 - expected_values:
     EQ_RAT: 1
   response: "01441\nAD\n129 04 41 44 80 00 "

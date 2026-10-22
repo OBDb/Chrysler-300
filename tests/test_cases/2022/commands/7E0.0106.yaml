@@ -7,19 +7,27 @@ test_cases:
     SHRTFT1: 0
   response: '000 03 41 06 80 '
 - expected_values:
-    SHRTFT1: 0.78125
-  response: '00003410681'
+    SHRTFT1: -3.125
+  response: 0000341067C
+- expected_values:
+    SHRTFT1: 0
+  response: "01061\n000 03 41 06 80 "
 - expected_values:
     SHRTFT1: -3.125
   response: |-
     01061
     0000341067C
 - expected_values:
-    SHRTFT1: -3.125
-  response: "01061\n7E8 03 41 06 7C "
+    SHRTFT1: 0
+  response: |-
+    01061
+    00003410680
 - expected_values:
-    SHRTFT1: 2.34375
-  response: "01061\n7E8 03 41 06 83 "
+    SHRTFT1: -14.84375
+  response: "01061\n7E8 03 41 06 6D "
+- expected_values:
+    SHRTFT1: 10.15625
+  response: "01061\n7E8 03 41 06 8D "
 - expected_values:
     SHRTFT1: 0
   response: '07F 03 41 06 80 '
