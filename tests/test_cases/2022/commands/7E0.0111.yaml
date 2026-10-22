@@ -16,6 +16,25 @@ test_cases:
     TP: 12.15686
   response: "0111\n7E8 03 41 11 1F "
 - expected_values:
+    TP: 12.15686
+  response: "01111\n000 03 41 11 1F "
+- expected_values:
+    TP: 12.54902
+  response: |-
+    01111
+    00003411120
+- expected_values:
+    TP: 39.60784
+  response: |-
+    01111
+    00003411165
+- expected_values:
+    TP: 10.98039
+  response: "01111\n7E8 03 41 11 1C "
+- expected_values:
+    TP: 86.66667
+  response: "01111\n7E8 03 41 11 DD "
+- expected_values:
     TP: 10.98039
   response: '7E8 03 41 11 1C '
 - expected_values:
