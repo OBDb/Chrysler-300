@@ -24,23 +24,38 @@ test_cases:
     LOAD_PCT: 22.35294
   response: "0104\n000 03 41 04 3A \n7E9 03 41 04 39 "
 - expected_values:
+    LOAD_PCT: 16.07843
+  response: |-
+    0104
+    00003410429
+    7E903410429
+- expected_values:
+    LOAD_PCT: 40.39216
+  response: |-
+    0104
+    00003410467
+    7E903410467
+- expected_values:
     LOAD_PCT: 10.58824
   response: "0104\n7E8 03 41 04 1B "
 - expected_values:
-    LOAD_PCT: 22.7451
-  response: "0104\n7E8 03 41 04 39 \n7E9 03 41 04 3A "
+    LOAD_PCT: 11.37255
+  response: "0104\n7E8 03 41 04 1D \n7E9 03 41 04 1D "
 - expected_values:
-    LOAD_PCT: 37.2549
-  response: "0104\n7E8 03 41 04 62 \n7E9 03 41 04 5F "
+    LOAD_PCT: 12.15686
+  response: "0104\n7E8 03 41 04 1E \n7E9 03 41 04 1F "
 - expected_values:
-    LOAD_PCT: 70.19608
-  response: "0104\n7E8 03 41 04 A5 \n7E9 03 41 04 B3 "
+    LOAD_PCT: 12.54902
+  response: "0104\n7E8 03 41 04 20 \n7E9 03 41 04 20 "
 - expected_values:
     LOAD_PCT: 74.90196
   response: "0104\n7E8 03 41 04 BF "
 - expected_values:
     LOAD_PCT: 95.29412
   response: "0104\n7E8 03 41 04 CF \n7E9 03 41 04 F3 "
+- expected_values:
+    LOAD_PCT: 100
+  response: "0104\n7E8 03 41 04 FF \n7E9 03 41 04 FF "
 - expected_values:
     LOAD_PCT: 100
   response: |-
