@@ -10,6 +10,17 @@ test_cases:
     SHRTFT1: -3.125
   response: 0000341067C
 - expected_values:
+    SHRTFT1: -3.90625
+  response: |-
+    0106
+    0000341067B
+- expected_values:
+    SHRTFT1: -19.53125
+  response: "0106\n7E8 03 41 06 67 "
+- expected_values:
+    SHRTFT1: 14.0625
+  response: "0106\n7E8 03 41 06 92 "
+- expected_values:
     SHRTFT1: 0
   response: "01061\n000 03 41 06 80 "
 - expected_values:
