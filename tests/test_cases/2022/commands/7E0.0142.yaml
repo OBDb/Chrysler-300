@@ -66,9 +66,6 @@ test_cases:
     VPWR: 12.785
   response: '7E8 04 41 42 31 F1 '
 - expected_values:
-    VPWR: 13.109
-  response: '7E8 04 41 42 33 35 '
-- expected_values:
     VPWR: 13.483
   response: "7E8 04 41 42 34 F5 \n7E9 04 41 42 34 AB "
 - expected_values:
@@ -80,6 +77,9 @@ test_cases:
 - expected_values:
     VPWR: 13.555
   response: "7E8 04 41 42 35 9F \n7E9 04 41 42 34 F3 "
+- expected_values:
+    VPWR: 14.159
+  response: '7E8 04 41 42 37 4F '
 - expected_values:
     VPWR: 13.48
   response: 7E804414234A8
@@ -105,11 +105,8 @@ test_cases:
     VPWR: 13.68
   response: '7E9 04 41 42 35 70 '
 - expected_values:
-    VPWR: 13.727
-  response: '7E9 04 41 42 35 9F '
-- expected_values:
-    VPWR: 13.918
-  response: '7E9 04 41 42 36 5E '
+    VPWR: 13.867
+  response: '7E9 04 41 42 36 2B '
 - expected_values:
     VPWR: 13.132
   response: 7E9044142334C
