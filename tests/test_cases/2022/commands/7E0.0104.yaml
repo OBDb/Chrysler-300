@@ -52,7 +52,7 @@ test_cases:
   response: "0104\n7E8 03 41 04 BF "
 - expected_values:
     LOAD_PCT: 95.29412
-  response: "0104\n7E8 03 41 04 CF \n7E9 03 41 04 F3 "
+  response: "0104\n7E8 03 41 04 C7 \n7E9 03 41 04 F3 "
 - expected_values:
     LOAD_PCT: 100
   response: "0104\n7E8 03 41 04 FF \n7E9 03 41 04 FF "
