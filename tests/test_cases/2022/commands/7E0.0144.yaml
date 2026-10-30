@@ -39,6 +39,9 @@ test_cases:
     NO DATA
     7E80441448000
 - expected_values:
+    EQ_RAT: 1
+  response: "7E8 04 41 0\n7E8 04 41 44 80 00 "
+- expected_values:
     EQ_RAT: 0.8721
   response: '7E8 04 41 44 6F A1 '
 - expected_values:
