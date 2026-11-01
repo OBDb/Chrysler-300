@@ -10,6 +10,9 @@ test_cases:
     LOAD_PCT: 54.5098
   response: "000 03 41 04 90 \n7E9 03 41 04 8B "
 - expected_values:
+    LOAD_PCT: 96.47059
+  response: '000 03 41 04 F6 '
+- expected_values:
     LOAD_PCT: 12.15686
   response: 0000341041F
 - expected_values:
@@ -73,6 +76,12 @@ test_cases:
     LOAD_PCT: 12.94118
   response: '7E8 03 41 04 21 '
 - expected_values:
+    LOAD_PCT: 18.43137
+  response: '7E8 03 41 04 2F '
+- expected_values:
+    LOAD_PCT: 43.92157
+  response: '7E8 03 41 04 70 '
+- expected_values:
     LOAD_PCT: 95.29412
   response: "7E8 03 41 04 F7 \n7E9 03 41 04 F3 "
 - expected_values:
@@ -99,9 +108,6 @@ test_cases:
 - expected_values:
     LOAD_PCT: 12.94118
   response: '7E9 03 41 04 21 '
-- expected_values:
-    LOAD_PCT: 74.90196
-  response: '7E9 03 41 04 BF '
 - expected_values:
     LOAD_PCT: 11.76471
   response: 7E90341041E
