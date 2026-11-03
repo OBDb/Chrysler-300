@@ -7,11 +7,11 @@ test_cases:
     LOAD_ABS: 20.78431
   response: '0000441430035'
 - expected_values:
-    LOAD_ABS: 9.80392
-  response: "0143\n7E8 04 41 43 00 19 "
+    LOAD_ABS: 9.01961
+  response: "0143\n7E8 04 41 43 00 17 "
 - expected_values:
-    LOAD_ABS: 42.35294
-  response: "0143\n7E8 04 41 43 00 6C "
+    LOAD_ABS: 56.07843
+  response: "0143\n7E8 04 41 43 00 8F "
 - expected_values:
     LOAD_ABS: 9.01961
   response: '7E8 04 41 43 00 17 '
