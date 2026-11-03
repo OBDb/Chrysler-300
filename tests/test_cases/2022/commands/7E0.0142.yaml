@@ -42,17 +42,29 @@ test_cases:
     VPWR: 14.237
   response: "0142\n000 04 41 42 37 9D "
 - expected_values:
+    VPWR: 13.625
+  response: |-
+    0142
+    0000441423696
+    7E90441423539
+- expected_values:
     VPWR: 13.109
   response: "0142\n7E8 04 41 42 33 35 "
 - expected_values:
     VPWR: 13.592
   response: "0142\n7E8 04 41 42 36 0B \n7E9 04 41 42 35 18 "
 - expected_values:
-    VPWR: 13.731
-  response: "0142\n7E8 04 41 42 37 8D \n7E9 04 41 42 35 A3 "
+    VPWR: 13.819
+  response: "0142\n7E8 04 41 42 36 49 \n7E9 04 41 42 35 FB "
+- expected_values:
+    VPWR: 13.954
+  response: "0142\n7E8 04 41 42 36 A6 \n7E9 04 41 42 36 82 "
+- expected_values:
+    VPWR: 13.578
+  response: "0142\n7E8 04 41 42 36 F3 \n7E9 04 41 42 35 0A "
 - expected_values:
     VPWR: 13.663
-  response: "0142\n7E8 04 41 42 37 EA \n7E9 04 41 42 35 5F "
+  response: "0142\n7E8 04 41 42 37 8D \n7E9 04 41 42 35 5F "
 - expected_values:
     VPWR: 14.329
   response: "0142\n7E8 04 41 42 37 F9 "
