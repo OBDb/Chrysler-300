@@ -12,6 +12,9 @@ test_cases:
     00003410D00
     7E903410D00
 - expected_values:
+    VSS: 33
+  response: "010D\n000 03 41 0D 22 \n7E9 03 41 0D 21 "
+- expected_values:
     VSS: 49
   response: |-
     010D
