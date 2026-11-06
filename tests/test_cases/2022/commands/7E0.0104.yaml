@@ -16,10 +16,10 @@ test_cases:
     LOAD_PCT: 12.15686
   response: 0000341041F
 - expected_values:
-    LOAD_PCT: 83.13725
+    LOAD_PCT: 23.92157
   response: |-
-    000034104D4
-    7E9034104D4
+    00003410438
+    7E90341043D
 - expected_values:
     LOAD_PCT: 13.33333
   response: "0104\n000 03 41 04 22 "
@@ -85,10 +85,10 @@ test_cases:
     LOAD_PCT: 100
   response: "7E8 03 41 04 FE \n7E9 03 41 04 FF "
 - expected_values:
-    LOAD_PCT: 23.13725
+    LOAD_PCT: 12.94118
   response: |-
-    7E803410432
-    7E90341043B
+    7E803410421
+    7E903410421
 - expected_values:
     LOAD_PCT: 24.70588
   response: |-
