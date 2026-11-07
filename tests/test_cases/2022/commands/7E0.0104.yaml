@@ -16,10 +16,10 @@ test_cases:
     LOAD_PCT: 12.15686
   response: 0000341041F
 - expected_values:
-    LOAD_PCT: 23.92157
+    LOAD_PCT: 20.39216
   response: |-
-    00003410438
-    7E90341043D
+    00003410435
+    7E903410434
 - expected_values:
     LOAD_PCT: 13.33333
   response: "0104\n000 03 41 04 22 "

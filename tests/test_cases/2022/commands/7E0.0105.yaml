@@ -7,13 +7,13 @@ test_cases:
     ECT: 92
   response: "000 03 41 05 84 \n7E9 03 41 05 84 "
 - expected_values:
+    ECT: 60
+  response: '00003410564'
+- expected_values:
     ECT: 89
   response: |-
     00003410581
     7E903410581
-- expected_values:
-    ECT: 90
-  response: '00003410582'
 - expected_values:
     ECT: 97
   response: 0000A410589
@@ -42,17 +42,20 @@ test_cases:
     ECT: 92
   response: "12F 03 41 05 84 \n7E9 03 41 05 84 "
 - expected_values:
+    ECT: 65
+  response: '7E8 03 41 05 69 '
+- expected_values:
     ECT: 67
   response: "7E8 03 41 05 6B \n7E9 03 41 05 6B "
 - expected_values:
+    ECT: 71
+  response: '7E8 03 41 05 6F '
+- expected_values:
+    ECT: 88
+  response: '7E8 03 41 05 80 '
+- expected_values:
     ECT: 88
   response: "7E8 03 41 05 80 \n7E9 03 41 05 80 "
-- expected_values:
-    ECT: 90
-  response: '7E8 03 41 05 82 '
-- expected_values:
-    ECT: 98
-  response: '7E8 03 41 05 8A '
 - expected_values:
     ECT: 100
   response: "7E8 03 41 05 8C \n7E9 03 41 05 8C "
@@ -60,10 +63,10 @@ test_cases:
     ECT: 43
   response: '7E803410553'
 - expected_values:
-    ECT: 52
+    ECT: 47
   response: |-
-    7E80341055C
-    7E90341055C
+    7E803410557
+    7E903410557
 - expected_values:
     ECT: 55
   response: |-
@@ -78,8 +81,8 @@ test_cases:
     7E803410591
     7E903410591
 - expected_values:
-    ECT: 94
-  response: '7E9 03 41 05 86 '
+    ECT: 65
+  response: '7E9 03 41 05 69 '
 - expected_values:
     ECT: 43
   response: '7E903410553'
