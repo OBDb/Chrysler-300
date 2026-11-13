@@ -4,8 +4,8 @@ test_cases:
     300_REQUIRED_FUEL_CHG_2: 4.15625
   response: 7E8056202B3010A
 - expected_values:
-    300_REQUIRED_FUEL_CHG_2: 12.04688
-  response: 7E8056202B30303
+    300_REQUIRED_FUEL_CHG_2: 8
+  response: 7E8056202B30200
 - expected_values:
     300_REQUIRED_FUEL_CHG_2: 27.9375
   response: 7E8056202B306FC

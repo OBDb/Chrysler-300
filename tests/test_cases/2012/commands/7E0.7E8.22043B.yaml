@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     300_ODO: 125550.592
   response: 7E80562043B3BDE
+- expected_values:
+    300_ODO: 125681.664
+  response: 7E80562043B3BEE
