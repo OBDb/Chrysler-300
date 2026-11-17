@@ -1,4 +1,4 @@
-command_id: 763.4E3.22032D|fc=1
+command_id: 763.4E3.22032D|fc=1,f=2015-;-2010
 test_cases:
 - expected_values:
     300_HIGHBEAMS_MODE: 'OFF'
@@ -25,5 +25,5 @@ test_cases:
     300_HIGHBEAMS_ON: 0
     300_REAR_WIPER: 'OFF'
   response: |-
-    4E3100862032D400000
-    4E3210010032D400000
+    4E3100862032D800000
+    4E3210010032D800000

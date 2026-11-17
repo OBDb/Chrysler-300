@@ -137,7 +137,6 @@ supported_commands_by_ecu:
   - 0130:WARM_UPS
   - 0131:CLR_DIST
   - 0142:VPWR
-  - 0149:APP_D
   - 7E1.7E9.010C
   - 7E1.7E9.010D
   - 7E1.7E9.0131
@@ -161,7 +160,7 @@ unsupported_commands_by_ecu:
   - 742.22A022
   - 742.4C2.22A077
   "763":
-  - 763.4E3.22032D|fc=1:300_HIGHBEAMS_MODE,300_HIGHBEAMS_ON,300_REAR_WIPER
+  - 763.4E3.22032D
   "7AB":
   - 7AB.52B.222802
   "7DA":
