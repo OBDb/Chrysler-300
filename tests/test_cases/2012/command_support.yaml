@@ -137,6 +137,7 @@ supported_commands_by_ecu:
   - 0130:WARM_UPS
   - 0131:CLR_DIST
   - 0142:VPWR
+  - 0149:APP_D
   - 7E1.7E9.010C
   - 7E1.7E9.010D
   - 7E1.7E9.0131
