@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.225043
 test_cases:
 - expected_values:
-    300_ATF_T_7E1: 32
-  response: "225043\n7E9 04 62 50 43 48 "
+    300_ATF_T_7E1: 26
+  response: "225043\n7E9 04 62 50 43 42 "
 - expected_values:
     300_ATF_T_7E1: 95
   response: "225043\n7E9 04 62 50 43 87 "

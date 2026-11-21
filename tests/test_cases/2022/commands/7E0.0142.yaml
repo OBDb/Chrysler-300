@@ -41,8 +41,8 @@ test_cases:
     00004414238A3
     7E90441423700
 - expected_values:
-    VPWR: 13.757
-  response: "0142\n000 04 41 42 37 12 \n7E9 04 41 42 35 BD "
+    VPWR: 13.969
+  response: "0142\n000 04 41 42 36 87 \n7E9 04 41 42 36 91 "
 - expected_values:
     VPWR: 14.237
   response: "0142\n000 04 41 42 37 9D "
@@ -59,8 +59,8 @@ test_cases:
     VPWR: 12.986
   response: "0142\n7E8 04 41 42 32 BA "
 - expected_values:
-    VPWR: 13.109
-  response: "0142\n7E8 04 41 42 33 35 "
+    VPWR: 13.079
+  response: "0142\n7E8 04 41 42 33 17 "
 - expected_values:
     VPWR: 13.61
   response: "0142\n7E8 04 41 42 35 52 \n7E9 04 41 42 35 2A "
