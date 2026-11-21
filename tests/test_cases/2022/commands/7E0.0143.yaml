@@ -12,6 +12,9 @@ test_cases:
     0143
     0000441430041
 - expected_values:
+    LOAD_ABS: 14.90196
+  response: "0143\n480 04 41 43 00 26 "
+- expected_values:
     LOAD_ABS: 8.62745
   response: "0143\n7E8 04 41 43 00 16 "
 - expected_values:
