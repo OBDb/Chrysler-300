@@ -108,3 +108,6 @@ test_cases:
 - expected_values:
     LOAD_PCT: 11.76471
   response: 7E90341041E
+- expected_values:
+    LOAD_PCT: 42.35294
+  response: "F21 03 41 04 56 \n7E9 03 41 04 6C "
