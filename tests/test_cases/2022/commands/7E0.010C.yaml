@@ -4,19 +4,19 @@ test_cases:
     RPM: 779
   response: "000 04 41 0C 0C 2C \n7E9 04 41 0C 0C 2C "
 - expected_values:
+    RPM: 1376
+  response: "000 04 41 0C 15 80 \n7E9 04 41 0C 15 80 "
+- expected_values:
     RPM: 1387
   response: '000 04 41 0C 15 AC '
-- expected_values:
-    RPM: 2653
-  response: "000 04 41 0C 29 90 \n7E9 04 41 0C 29 74 "
 - expected_values:
     RPM: 713
   response: |-
     00004410C0B20
     7E904410C0B24
 - expected_values:
-    RPM: 1546
-  response: 00004410C1828
+    RPM: 1316
+  response: 00004410C1490
 - expected_values:
     RPM: 1933
   response: 00004410C1E34
@@ -46,11 +46,11 @@ test_cases:
     00004410C0C34
     7E904410C0C34
 - expected_values:
-    RPM: 1519
+    RPM: 1457
   response: |-
     010C
-    00004410C177C
-    7E904410C17BC
+    00004410C16B0
+    7E904410C16C4
 - expected_values:
     RPM: 2701
   response: |-
@@ -112,8 +112,8 @@ test_cases:
     RPM: 1042
   response: "7E8 04 41 0C 10 54 \n7E9 04 41 0C 10 48 "
 - expected_values:
-    RPM: 1856
-  response: "7E8 04 41 0C 1C C8 \n7E9 04 41 0C 1D 00 "
+    RPM: 1408
+  response: "7E8 04 41 0C 16 28 \n7E9 04 41 0C 16 00 "
 - expected_values:
     RPM: 2046
   response: '7E8 04 41 0C 1F F8 '
@@ -123,6 +123,9 @@ test_cases:
 - expected_values:
     RPM: 4385
   response: '7E8 04 41 0C 44 84 '
+- expected_values:
+    RPM: 4761
+  response: "7E8 04 41 0C 4A 50 \n7E9 04 41 0C 4A 64 "
 - expected_values:
     RPM: 243
   response: 7E804410C03CC
@@ -168,8 +171,8 @@ test_cases:
     RPM: 722
   response: '7E9 04 41 0C 0B 48 '
 - expected_values:
-    RPM: 1548
-  response: 7E904410C1830
+    RPM: 1316
+  response: 7E904410C1490
 - expected_values:
     RPM: 1798
   response: 7E904410C1C18
