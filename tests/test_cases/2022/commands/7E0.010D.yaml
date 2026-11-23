@@ -18,14 +18,22 @@ test_cases:
     00003410D00
     7E903410D00
 - expected_values:
-    VSS: 10
-  response: "010D\n000 03 41 0D 0B \n7E9 03 41 0D 0A "
+    VSS: 0
+  response: "010D\n000 03 41 0D 00 \n7E9 03 41 0D 00 "
+- expected_values:
+    VSS: 73
+  response: "010D\n000 03 41 0D 49 "
 - expected_values:
     VSS: 0
   response: |-
     010D
     00003410D00
     7E903410D00
+- expected_values:
+    VSS: 81
+  response: |-
+    010D
+    00003410D51
 - expected_values:
     VSS: 82
   response: |-
@@ -47,6 +55,9 @@ test_cases:
 - expected_values:
     VSS: 31
   response: "010D\n7E8 03 41 0D 1F \n7E9 03 41 0D 1F "
+- expected_values:
+    VSS: 129
+  response: "010D\n7E8 03 41 0D 81 "
 - expected_values:
     VSS: 134
   response: "010D\n7E8 03 41 0D 85 \n7E9 03 41 0D 86 "
@@ -89,6 +100,12 @@ test_cases:
   response: |-
     7E803410DB1
     7E903410DB1
+- expected_values:
+    VSS: 0
+  response: '7E9 03 41 0D 00 '
+- expected_values:
+    VSS: 15
+  response: '7E9 03 41 0D 0F '
 - expected_values:
     VSS: 0
   response: 7E903410D00
