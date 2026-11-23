@@ -13,11 +13,14 @@ test_cases:
     TP: 12.15686
   response: 0000341111F
 - expected_values:
+    TP: 11.37255
+  response: 0000A41111D
+- expected_values:
     TP: 12.54902
   response: "0111\n000 03 41 11 20 "
 - expected_values:
-    TP: 12.15686
-  response: "0111\n7E8 03 41 11 1F "
+    TP: 11.76471
+  response: "0111\n7E8 03 41 11 1E "
 - expected_values:
     TP: 54.5098
   response: "0111\n7E8 03 41 11 8B "
@@ -35,8 +38,8 @@ test_cases:
     01111
     00003411165
 - expected_values:
-    TP: 10.98039
-  response: "01111\n7E8 03 41 11 1C "
+    TP: 10.58824
+  response: "01111\n7E8 03 41 11 1B "
 - expected_values:
     TP: 86.66667
   response: "01111\n7E8 03 41 11 DD "
