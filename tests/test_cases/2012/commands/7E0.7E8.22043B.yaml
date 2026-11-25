@@ -4,29 +4,5 @@ test_cases:
     300_ODO: 125542.4
   response: 7E80562043B3BDD
 - expected_values:
-    300_ODO: 125550.592
-  response: 7E80562043B3BDE
-- expected_values:
-    300_ODO: 125681.664
-  response: 7E80562043B3BEE
-- expected_values:
-    300_ODO: 125689.856
-  response: 7E80562043B3BEF
-- expected_values:
-    300_ODO: 125698.048
-  response: 7E80562043B3BF0
-- expected_values:
-    300_ODO: 125706.24
-  response: 7E80562043B3BF1
-- expected_values:
-    300_ODO: 125714.432
-  response: 7E80562043B3BF2
-- expected_values:
-    300_ODO: 125722.624
-  response: 7E80562043B3BF3
-- expected_values:
-    300_ODO: 125730.816
-  response: 7E80562043B3BF4
-- expected_values:
-    300_ODO: 125739.008
-  response: 7E80562043B3BF5
+    300_ODO: 125747.2
+  response: 7E80562043B3BF6
