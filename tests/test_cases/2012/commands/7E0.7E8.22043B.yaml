@@ -4,5 +4,5 @@ test_cases:
     300_ODO: 125542.4
   response: 7E80562043B3BDD
 - expected_values:
-    300_ODO: 125747.2
-  response: 7E80562043B3BF6
+    300_ODO: 125755.392
+  response: 7E80562043B3BF7
